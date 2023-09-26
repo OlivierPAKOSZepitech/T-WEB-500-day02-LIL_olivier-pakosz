@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="codingpedia.css">
+    <title>Welcome to the CodingPedia!</title>
+</head>
+<body>
+    <header class="box">
+        <div class="header_grid">
+        <h1>Bienvenue</h1>
+        <nav class="box">
+            <ul>
+                <li><a href="index.html">index</a></li>
+                <li><a href="php.html">PHP</a></li>
+                <li><a href="sql.html">SQL</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+<div class="container">
+    <main class="box">
+        <h1>CodingPedia</h1>
+        <p>
+        CodingPedia is a collective encyclopedia project on the Internet aiming to be universal
+        and multi - lingual which functions as a wiki.<br>
+        CodingPedia has for goal to offer freely reusable objective and verifiable content that
+        anyone can modify and improve.</p>
+
+        <article>
+            <form action="">
+                <label for="Name">Name</label>
+                <input type="text" name="Name" id="Name" required>
+                <br>
+
+                <label for="First Name">First Name</label>
+                <input type="text" name="First Name" id="First Name"required>
+                <br>
+
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email"required>
+                <br>
+
+                <label for="Age">Age</label>
+                <input type="number" min="3" max="99" name="Age" id="Age">
+                <br>
+
+                <label for="Phone">Numéro de Téléphone</label>
+                <input type="tel" name="Phone" id="Phone" minlength="10" maxlength="10">
+                <br>
+
+                <label for="BoutonRadioSexMale">Male</label>
+                <input type="radio" name="Sex" value="Male" id="BoutonRadioSexMale" checked>
+                <label for="BoutonRadioSexFemale">Female</label>
+                <input type="radio" name="Sex" value="Female" id="BoutonRadioSexFemale">
+                <br>
+
+                <label for="Hair color">Hair color</label>
+                <input type="color" name="Hair color" id="Hair color" value="ff0000">
+                <br>
+
+                <label for="Date">Date</label>
+                <input type="date" name="Date" id="Date" value="2023-09-26" required><br>
+
+                <label for="Technology Selection" name="Technology" id="Technology">Technology: </label>
+                    <select name="Technology" id="Technology"><br>
+                        <option value="PHP">PHP</option>
+                        <option value="SQL">SQL</option>
+                    </select>
+                <br>
+                
+                <label for="Question">Question</label>
+                <textarea name="Question" id="Question" cols="40" rows="6" required>Que pensez-vous de mon site ?</textarea><br>
+                <input type="submit" name="submit" id="submit" value="submit">
+            </form>
+        </article>
+    </main>
+
+
+    <aside class="box">
+        <p>
+            Je m'apelle Olivier PAKOSZ. Je viens d'avoir 29 ans. Je suis actuellement en reconversion
+            professionnelle à Epitech. <br>
+            J'aime l'informatique, la Formule 1 ainsi que le sport. <br>
+            J'ai hâte d'être très compétent en informatique. 
+        </p>
+    </aside>
+</div>
+    <footer class="box">
+        <div class="moving_square"></div>
+        <address>
+            PAKOSZ Olivier <br>
+            <a href="mailto: olivier.pakosz@epitech.eu"> mail: olivier.pakosz@epitech.eu</a><br>
+            <a href="Tel: 0658784646">Tel: 06.58.78.46.46</a>
+        </address>
+    </footer>
+</body>
+</html>

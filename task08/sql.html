@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="codingpedia.css">
+    <title>SQL</title>
+</head>
+<body>
+    <header class="box">
+        <nav class="box">
+            <ul>
+                <li><a href="index.html">index</a></li>
+                <li><a href="php.html">PHP</a></li>
+                <li><a href="sql.html">SQL</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="box">
+       <article>
+        <abbr title="SQL">https://en.wikipedia.org/wiki/SQL</abbr> <br>
+        Structured Query Language (SQL) (/ˌɛsˌkjuːˈɛl/ ⓘ S-Q-L, sometimes /ˈsiːkwəl/ <br>
+        "sequel" for historical reasons)[4][5] is a domain-specific language used in <br>
+        programming and designed for managing data held in a relational database management <br>
+        system (RDBMS), or for stream processing in a relational data stream management system <br>
+        (RDSMS). It is particularly useful in handling structured data, i.e., data incorporating <br>
+        relations among entities and variables. <br>
+        </article> 
+        <article>
+            <table>
+                <caption>Course planning</caption>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Description</th>
+                        <th>Grade obtained</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SQL 101</td>
+                        <td>A quick introduction to the SQL language</td>
+                        <td>18</td>
+                    </tr>
+                    <tr>
+                        <td>SQL join</td>
+                        <td>Discovery of JOIN to combine rows from multiple tables</td>
+                        <td>13</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article>
+            <ul>
+                <li>I heard that SQL is easy to use</li>
+                <li>But I didnt't used it yet</li>
+            </ul>
+        </article>
+        <article>
+            <code>
+            select prénom, p.nom, no, surface, niveau
+            from   Personne as p, Appart as a, Immeuble as i
+            where  p.idAppart=a.id
+            and    a.idImmeuble=i.id
+            and    i.nom='Barabas'
+            </code>
+        </article>
+    </main>
+    <aside class="box">
+        Peace is a lie, there is only passion. <br>
+    Through passion, I gain strength. <br>
+    Through strength, I gain power. <br>
+    Through power, I gain victory. <br>
+    Through victory, my chains are broken. <br>
+    The Force shall free me. <br>
+        <p style="text-align:right"><b>— Sith Code —</b></p>
+    </aside>    
+    <footer class="box">
+        <address>
+            PAKOSZ Olivier <br>
+            <a href="mailto: olivier.pakosz@epitech.eu"> mail: olivier.pakosz@epitech.eu</a><br>
+            <a href="Tel: 0658784646">Tel: 06.58.78.46.46</a>
+        </address>
+    </footer>
+</body>
+</html>
